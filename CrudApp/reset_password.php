@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "index.php"
+require_once "index.php";
 
 if (!isset($_SESSION["loggedin"])||
 $_SESSION["loggedin"] !== true) {
